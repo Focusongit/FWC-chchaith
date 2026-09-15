@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  margin: 30px;
+}
+
+#new-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#ft_list {
+  width: 400px;
+}
+
+.todo {
+  padding: 15px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
