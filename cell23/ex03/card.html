@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="card.css"> -->
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 250px;
+        margin: 20px;
+      }
+
+      p {
+        margin: 0;
+        font-family: Arial;
+      }
+
+      .profile-card {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .picture {
+        width: 250px;
+        height: 250px;
+      }
+
+      .name {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .description1 {
+        color: gray;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+      }
+
+      .description2 {
+        color: black;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      .icon {
+        width: 25px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      .all-icon {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .contact-button {
+        width: 250px;
+        height: 30px;
+        border: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="profile-card">
+        <div class="profile">
+          <img class="picture" src="the fool.jpg">
+          <p class="name">chchaith</p>
+          <p class="description1">Praise the fool</p>
+          <p class="description2">Please wake up from the dream</p>
+          <div class="all-icon">
+            <img class="icon" src="twitter.png">
+            <img class="icon" src="facebook.png">
+            <img class="icon" src="ig.png">
+          </div>
+        </div>
+
+        <button class="contact-button" href>
+          Contact
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

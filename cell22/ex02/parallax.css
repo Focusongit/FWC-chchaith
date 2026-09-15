@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.jojo-pic, .all-might-pic {
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jojo-pic {
+  background-image: url("jojo.jpg");
+}
+
+.all-might-pic {
+  background-image: url("all-might.jpg");
+}
+
+.black-page {
+  background-color: black;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
