@@ -28,9 +28,7 @@ function saveTodos() {
     todos.push(todo.textContent);
   });
 
-  document.cookie =
-    'todos=' +
-    encodeURIComponent(JSON.stringify(todos)) +
+  document.cookie ='todos=' + encodeURIComponent(JSON.stringify(todos)) +
     '; max-age=31536000; path=/';
 }
 
@@ -46,9 +44,7 @@ function loadTodos() {
     return;
   }
 
-  const todos = JSON.parse(
-    decodeURIComponent(todoCookie.substring(6))
-  );
+  const todos = JSON.parse(decodeURIComponent(todoCookie.substring(6)));
 
   todos.forEach(function (text) {
     createTodo(text);
