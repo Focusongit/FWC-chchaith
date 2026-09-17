@@ -22,49 +22,35 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-
     width: 100%;
-
     background-color: white;
-
     border-bottom: 1px solid #e5e5e5;
 }
 
 nav {
-    max-width: 1200px;
-
+    max-width: 1500px;
     margin: auto;
-
     padding: 20px 30px;
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
 }
 
 .logo {
     text-decoration: none;
-
     color: #222;
-
     font-size: 20px;
-
     font-weight: bold;
 }
 
 .nav-links {
     display: flex;
-
     gap: 30px;
 }
 
 .nav-links a {
     text-decoration: none;
-
     color: #666;
-
     font-size: 15px;
 }
 
@@ -80,58 +66,49 @@ nav {
 .home {
     min-height: calc(100vh - 70px);
 
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("images/spring-butterfly.gif");
+    background-size: cover;
+    background-position: center;
+
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
     align-items: center;
-
     text-align: center;
-
     padding: 60px 20px;
 }
 
 .small-title {
     color: #777;
-
     font-size: 13px;
-
     letter-spacing: 4px;
+    font-weight: bold;
 }
 
 .home h1 {
     font-size: 72px;
-
     line-height: 1.1;
-
     margin: 20px 0;
 }
 
 .home-description {
     color: #777;
-
     font-size: 18px;
 }
 
 .buttons {
     display: flex;
-
     gap: 15px;
-
     margin-top: 30px;
 }
 
 .buttons a {
     text-decoration: none;
-
     color: white;
-
     background-color: #222;
-
     padding: 13px 25px;
-
     border-radius: 5px;
 }
 
