@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;  /*select every element, included padding in the width*/
 }
 
 html {
@@ -17,7 +17,7 @@ body {
 /* ==================== */
 
 .navbar {
-  position: fixed;
+  position: fixed;  /*keep this element attached to the browser window*/
   top: 0;
   left: 0;
   width: 100%;
@@ -53,7 +53,7 @@ body {
 
 /* Hamburger */
 
-#menu-toggle {
+#menu-toggle {   /*select id menu-toggle*/
   display: none;
 }
 
@@ -69,8 +69,8 @@ body {
 /* -------------------- */
 
 section {
-  min-height: 70vh;
-  padding: 60px 40px 60px;
+  min-height: 70vh;  /*viewport hieght, 70% of viewport height, but it can be taller if content need space*/
+  padding: 60px 40px 60px;  /*top left+right bottom*/
   text-align: center;
 }
 
@@ -102,8 +102,8 @@ section h1 {
 }
 
 .about p {
-  max-width: 600px;
-  margin: 15px auto;
+  max-width: 600px;  /*prevent text from getting too long*/
+  margin: 15px auto;  /*auto help center paragraph when it has maximum width*/
   line-height: 1.6;
 }
 
@@ -123,7 +123,7 @@ section h1 {
 
 .cat-picture {
   width: 450px;
-  max-width: 100%;
+  max-width: 100%;  /*it make the picture to be able to shrink in phone view*/
   border-radius: 15px;
 }
 
