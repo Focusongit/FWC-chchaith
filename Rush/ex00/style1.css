@@ -202,7 +202,7 @@ section h1 {
 }
 
 .social-links a:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1);  /*make image 1.1x its normal size*/
 }
 
 
@@ -210,8 +210,7 @@ section h1 {
 /* Phone / Tablet       */
 /* -------------------- */
 
-@media (max-width: 768px) {
-
+@media (max-width: 768px) {  /*applies when the screen is 768px wide or smaller*/
   .navbar {
     padding: 0 20px;
   }
@@ -241,7 +240,7 @@ section h1 {
 
   /* Show menu when hamburger is clicked */
 
-  #menu-toggle:checked ~ .menu {
+  #menu-toggle:checked ~ .menu {  /*When menu-toggle is checked, find the .menu after it*/
     display: flex;
   }
 
@@ -250,11 +249,7 @@ section h1 {
     padding-right: 20px;
   }
 
-  .home h1 {
-    font-size: 36px;
-  }
-
-  .cat-picture {
+  .cat-picture {  /*image can become shrink to match screen size*/
     width: 100%;
     max-width: 450px;
   }
